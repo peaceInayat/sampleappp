@@ -5,6 +5,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.2'
 
 gem 'cowsay'
+
+gem 'rails_12factor', group: :production
+
 # Use mysql as the database for Active Record
 gem "mysql2", "0.3.18"
 
